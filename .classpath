@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/activation-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/commons-email-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/commons-email-1.5-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/extentreports-2.05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/selenium-server-standalone.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/testng.jar"/>
+	<classpathentry kind="lib" path="C:/Users/214165/Desktop/SelAssessment/SelAssessment/src/jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

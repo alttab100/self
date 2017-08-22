@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assessment]">
+  <parameter name="Browser" value="chrome"/>
+  <test name="FirefoxBrowserValidation">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Reg_TC">
+        <methods>
+          <include name="testmethod"/>
+        </methods>
+      </class> <!-- TestCases.Reg_TC -->
+    </classes>
+  </test> <!-- FirefoxBrowserValidation -->
+  <test name="ChromeBrowserValidation">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Reg_TC">
+        <methods>
+          <include name="testmethod"/>
+        </methods>
+      </class> <!-- TestCases.Reg_TC -->
+    </classes>
+  </test> <!-- ChromeBrowserValidation -->
+  <test name="IEBrowserValidation">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Reg_TC">
+        <methods>
+          <include name="testmethod"/>
+        </methods>
+      </class> <!-- TestCases.Reg_TC -->
+    </classes>
+  </test> <!-- IEBrowserValidation -->
+  <test name="FirefoxBrowserValidation(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Reg_TC">
+        <methods>
+          <include name="testmethod"/>
+          <include name="beforeexecution"/>
+          <include name="beforeexecution"/>
+          <include name="beforeexecution"/>
+        </methods>
+      </class> <!-- TestCases.Reg_TC -->
+    </classes>
+  </test> <!-- FirefoxBrowserValidation(failed) -->
+  <test name="ChromeBrowserValidation(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Reg_TC">
+        <methods>
+          <include name="testmethod"/>
+          <include name="beforeexecution"/>
+          <include name="beforeexecution"/>
+          <include name="beforeexecution"/>
+        </methods>
+      </class> <!-- TestCases.Reg_TC -->
+    </classes>
+  </test> <!-- ChromeBrowserValidation(failed) -->
+  <test name="IEBrowserValidation(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Reg_TC">
+        <methods>
+          <include name="testmethod"/>
+          <include name="beforeexecution"/>
+          <include name="beforeexecution"/>
+          <include name="beforeexecution"/>
+        </methods>
+      </class> <!-- TestCases.Reg_TC -->
+    </classes>
+  </test> <!-- IEBrowserValidation(failed) -->
+</suite> <!-- Failed suite [Assessment] -->

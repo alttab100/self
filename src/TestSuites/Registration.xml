@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Assessment">
+<test name="FirefoxBrowserValidation">
+<parameter name="Browser" value="chrome">
+<classes>
+<class name="TestCases.Reg_TC">
+<methods>
+<include name="testmethod">
+</include>
+</methods>
+</class>
+</classes>
+</parameter>
+</test>
+
+<test name="ChromeBrowserValidation">
+<parameter name="Browser" value="chrome">
+<classes>
+<class name="TestCases.Reg_TC">
+<methods>
+<include name="testmethod">
+</include>
+</methods>
+</class>
+</classes>
+</parameter>
+</test>
+
+<test name="IEBrowserValidation">
+<parameter name="Browser" value="chrome">
+<classes>
+<class name="TestCases.Reg_TC">
+<methods>
+<include name="testmethod">
+</include>
+</methods>
+</class>
+</classes>
+</parameter>
+</test>
+
+</suite>
